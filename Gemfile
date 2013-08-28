@@ -5,4 +5,5 @@ gem 'rails', ' 4.0.0'
 group :test do
   gem 'rspec-rails'
   gem 'sqlite3'
+  gem 'delorean'
 end

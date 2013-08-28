@@ -3,6 +3,7 @@ require "rspec"
 require "active_record"
 require 'active_support'
 require 'sqlite3'
+require 'delorean'
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'rails'))
